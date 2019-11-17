@@ -18,3 +18,18 @@ The oppurtunity is to bring these functionalities all under one real time workin
   - [Training notebook](https://github.com/siddish-reddy/KSP-IPH-2019-Table25-Legion-FR/blob/master/Face_recognition.ipynb) 
   - Facial features embeddings from given datasets [Drive link](https://drive.google.com/open?id=1WL2eP_K-6XhAp2_PL4dslpmbzBcp_YV4)
   
+#### Process overview:
+ ![process](face-recognition-process.png)
+
+#### Output:
+ Live recognition from camera:
+ ![screenshot](Screenshot17112019140722.png)
+ ![video](Face%20recognition%20-%20Colaboratory%20-%20Google%20Chrome%202019-11-17%2015-00-15_Trim.mp4)
+ 
+ #### How to run:
+ - Install Python 3.6+
+ - Install Pytorch, Opencv, facenet_pytorch, jupyter, scipy libraries
+ - Download necessary images for testing from [here](https://drive.google.com/open?id=1SfISeJ8nlAqX5mfytQrfV6f7_4GcJH23)
+ - For live recognition first at least extract face encodings from one image and then run `python live_face_recognition.py`
+ - For generating face encodings using any of pretrained models of facenet and measure similarity of faces by using cosine similarity or euclidean distance, it is best to train custom metric learner as both cosine similarity and L2 distance aren't efficient for higher dimensional data.
+ 
