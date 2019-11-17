@@ -5,6 +5,10 @@ Facial Recognition problem submission by Team Legion (Table 25)
 Here is the top predictions matched from missing folder to other folder: [Table of image results](Test_Results.csv).
 To search or view add this folder to your drive and search in drive or plot using 
 ```
+import pandas as pd
+import numpy as p
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 def plot(images_array):
   fig, axs = plt.subplots(len(images_array),2, figsize = (8, len(images_array)*2.6))
   for i in range(len(images_array)):
