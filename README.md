@@ -16,3 +16,5 @@ The oppurtunity is to bring these functionalities all under one real time workin
  
  #### Code and Resources:
   - [Training notebook](https://github.com/siddish-reddy/KSP-IPH-2019-Table25-Legion-FR/blob/master/Face_recognition.ipynb) 
+  - Facial features embeddings from given datasets [Drive link](https://drive.google.com/open?id=1WL2eP_K-6XhAp2_PL4dslpmbzBcp_YV4)
+  
