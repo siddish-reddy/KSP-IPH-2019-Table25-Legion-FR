@@ -2,7 +2,17 @@
 Facial Recognition problem submission by Team Legion (Table 25)
 
 ### Test Results:
-Here is the top predictions matched from missing folder to other folder: [Table of image results](Test_Results.csv)
+Here is the top predictions matched from missing folder to other folder: [Table of image results](Test_Results.csv).
+To search or view add this folder to your drive and search in drive or plot using 
+```
+def plot(images_array):
+  fig, axs = plt.subplots(len(images_array),2, figsize = (8, len(images_array)*2.6))
+  for i in range(len(images_array)):
+    for j in range(2):
+      axs[i,j].imshow(mpimg.imread(images_array[i][j]))
+      axs[i,j].set_title(str(i)+' '+ str(j))
+  plt.show()
+```
 
 ### Project synopsis:
 
